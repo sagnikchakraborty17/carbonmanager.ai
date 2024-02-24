@@ -130,8 +130,8 @@ sample_df = pd.DataFrame(data=sample,index=[0])
 sample_df[sample_df.columns] = 0
 sample_df[data.columns] = data
 
-ss = pickle.load(open("./models/scale.sav","rb"))
-model = pickle.load(open("./models/model.sav","rb"))
+ss = pickle.load(open("/models/scale.sav","rb"))
+model = pickle.load(open("/models/model.sav","rb"))
 prediction = round(np.exp(model.predict(ss.transform(sample_df))[0]))
 
 column1,column2 = tab1.columns(2)
