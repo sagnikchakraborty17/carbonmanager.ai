@@ -18,7 +18,7 @@ def get_base64(bin_file):
         data = f.read()
     return base64.b64encode(data).decode()
 
-background = get_base64("./media/background_min.gif")
+background = get_base64("./media/background_min.jpg")
 icon2 = get_base64("./media/icon2.png")
 icon3 = get_base64("./media/icon3.png")
 
@@ -130,8 +130,8 @@ sample_df = pd.DataFrame(data=sample,index=[0])
 sample_df[sample_df.columns] = 0
 sample_df[data.columns] = data
 
-ss = pickle.load(open("/model/scale.sav","rb"))
-model = pickle.load(open("/model/model.sav","rb"))
+ss = pickle.load(open("scale.sav","rb"))
+model = pickle.load(open("model.sav","rb"))
 prediction = round(np.exp(model.predict(ss.transform(sample_df))[0]))
 
 column1,column2 = tab1.columns(2)
