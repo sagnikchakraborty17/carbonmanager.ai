@@ -1,5 +1,7 @@
 # 🌳About Our Project- Carbon Manager -A Unique Solution to Global Warming using ML
 
+<img src="https://sdgs.un.org/sites/default/files/goals/E_SDG_Icons-13.jpg" alt="Climate Impact" class="responsive-image">
+
 Presenting to you, world's first ever, most accurate (98%), most user-friendly, AI-powered platform designed to empower individuals to calculate, understand and reduce their own carbon footprints through answering just a few of their daily life questions, contribute to reforestation efforts to offset their carbon emission, and collectively combat climate change. Through a combination of accurate carbon footprint prediction, and the data inputted, innovative AI personalized action suggestions are provided to reduce their carbon foorprint, and tree-planting facilitation (both by self and through NGOs to offset their emission), our project aims to empower users to become active participants in creating a sustainable, clean green future and stand against the evil of humanity- The Global Warming...
 
 More than that, based on the monthly inputs sent, you will be provided Carbon Credits which you can redeem to purchase any eco-friendly or carbon-friendly items from anywhere you wish to.
