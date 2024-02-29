@@ -12,7 +12,7 @@ Social Profiles: https://thesagnikchakraborty.000webhostapp.com
 
 Contact: chakrasagnik2008@gmail.com, teamhackminors@gmail.com
 
-Roles: Ideation & Concept, Implementation, Back-end Coding (part)
+Roles: Ideation & Concept, Implementation, Back-end (part)
 
 #### 🙋‍♂️ 2. Hrishikesh Saha
 Social Profiles:
@@ -26,7 +26,7 @@ Social Profiles:
 
 Contact: purbayonsarkar08@gmail.com, teamhackminors@gmail.com
 
-Roles: Back-end (main)
+Roles: 
 
 # 🌳Why It Matters?
 
