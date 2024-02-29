@@ -31,7 +31,7 @@ Roles:
 # 🌳Why It Matters?
 
 ####  🍃Climate Impact
-<img src="https://sdgs.un.org/sites/default/files/goals/E_SDG_Icons-13.jpg" alt="Climate Impact" width="200">
+![image](https://sdgs.un.org/sites/default/files/goals/E_SDG_Icons-13.jpg)
 
 Reducing your carbon footprint directly contributes to global efforts against climate change, mitigating extreme weather and rising temperatures which in turns may lead to what I guess you already know...
 
