@@ -6,6 +6,7 @@ Presenting to you, world's first ever, most accurate (98%), most user-friendly, 
 #### BIG UPDATES!:
 1. Based on the monthly inputs sent, you will be provided Carbon Credits which you can redeem to purchase any eco-friendly or carbon-friendly items from anywhere on Earth you wish to. Also adding to the glory, a leaderboard will be set up soon based on the top Carbon Warriors of the previous month, which would not only provide people fame, but also tends to inspire millions.
 2. The data used to feed our AI model has been synthetically generated, calculated based on weightings from various studies and sites that currently compute the dependent variable, carbon emissions, attempting to maintain values close to reality. Thus to ensure an even more accurate result, we introduce yet another amazing feature named "Correction Factor". We invite all the experts from reputed industries and authorities to try our app and compare the calculated footprint on our app with that of their sensors or mathematics and science, and present to us if there is any difference or issue between the findings, by clicking on the "Report Correction Factor" button. Submit a detailed report with adequate proof and information. We shall soon review it and if there is (really) any noticable difference between the true findings and our findings, we shall try to improve the accurate results of our project even more by using a Correction Factor and make this platform even more powerful.
+3. A community forum named "Carbon Manager-Forum" (link here) has been introduced to create a social-networking site for asking, chatting, learning, suggesting, marketting, news and updates, research, and many more for a sustainable Carbon-friendly, clean green Earth. All the more, based on the Carbon Footprint Report and Offset Proof, and other activities on the forum, special and exciting badges beside their names will be awarded to the respective users, giving them fame.
 
 [(?)A carbon footprint measures the total greenhouse gas emissions linked to an individual, organization, event, or product. It's a crucial metric for gauging our impact on the environment and climate change.]
 
@@ -15,7 +16,7 @@ Social Profiles: https://thesagnikchakraborty.000webhostapp.com
 
 Contact: chakrasagnik2008@gmail.com, teamhackminors@gmail.com
 
-Roles: Ideation & Concept, Implementation, Back-end (part)
+Roles: Ideation & Concept, Implementation & Front-End, Back-end (AI Carbon Footprint Calculation)
 
 #### 🙋‍♂️ 2. Hrishikesh Saha
 Social Profiles:
@@ -29,7 +30,7 @@ Social Profiles:
 
 Contact: purbayonsarkar08@gmail.com, teamhackminors@gmail.com
 
-Roles: 
+Roles: Back-End (AI Bot)
 
 # 🌳Why It Matters?
 
