@@ -163,6 +163,33 @@ tab_result.markdown(f"""You owe nature <b>{tree_count}</b> tree{'s' if tree_coun
 if resultmid.button("  ", type="secondary"):
     click_element('tab-1')
 
+# Function to load Botpress chatbot HTML
+def load_chatbot():
+    with open("chatbot.html", "r", encoding="utf-8") as chatbot_file:
+        chatbot_html = chatbot_file.read()
+        st.markdown(chatbot_html, unsafe_allow_html=True)
+
+# Function to handle button clicks and other actions
+def handle_actions():
+    # Add your button callbacks and other actions here
+    pass
+
+# Streamlit app layout
+def main():
+    # Add your Streamlit app layout here
+    
+    # Check if the user clicks the "🏡" button
+    if st.button("🏡"):
+        # Load the appropriate tab or section (assuming this function exists)
+        click_element('tab-0')
+    
+    # Load Botpress chatbot when clicking a certain button or under certain conditions
+    if st.button("Open Chatbot"):
+        load_chatbot()
+    
+    # Handle other button clicks and actions
+    handle_actions()
+
 with open("./style/footer.html", "r", encoding="utf-8") as footer:
     footer_html = f"""{footer.read()}"""
     st.markdown(footer_html, unsafe_allow_html=True)
