@@ -165,27 +165,23 @@ if resultmid.button("  ", type="secondary"):
 
 st.markdown(
         """
-        <script src="https://cdn.botpress.cloud/webchat/v1/inject.js"></script>
-        <script>
-        window.botpressWebChat.init({
-        "composerPlaceholder": "Chat with CarbonGPT",
-        "botConversationDescription": "This is the bot for the Carbon Manager project.",
-        "botId": "c80ccde7-2db0-4ca9-99b0-14c91448ee4e",
-        "hostUrl": "https://cdn.botpress.cloud/webchat/v1",
-        "messagingUrl": "https://messaging.botpress.cloud",
-        "clientId": "c80ccde7-2db0-4ca9-99b0-14c91448ee4e",
-        "webhookId": "756ed999-5e57-4054-9f7a-9c23a7c9b8d1",
-        "lazySocket": true,
-        "themeName": "prism",
-        "botName": "CarbonGPT",
-        "avatarUrl": "https://cdn.leonardo.ai/users/434a484d-c18d-47a0-9d78-7c1cfca70039/generations/0e5b096c-fa85-4d78-b42a-6fb37e24935e/Default_woman_dancing_in_the_black_hole_splashing_ripples_on_b_0.jpg?w=512",
-        "frontendVersion": "v1",
-        "useSessionStorage": true,
-        "enableConversationDeletion": true,
-        "theme": "prism",
-        "themeColor": "#2563eb"
-    });
-        </script>
+                // Create a div element to contain the chatbot
+        var chatDiv = document.createElement('div');
+        chatDiv.id = 'botpressChat'; // Assign an ID to the div for reference
+
+        // Append the chatbot div to the body of the document
+        document.body.appendChild(chatDiv);
+
+        // Inject Botpress webchat
+        var script1 = document.createElement("script");
+        script1.src = 'https://cdn.botpress.cloud/webchat/v1/inject.js';
+        document.body.appendChild(script1);
+
+        // Load Botpress configuration
+        var script2 = document.createElement('script');
+        script2.src = 'https://mediafiles.botpress.cloud/c80ccde7-2db0-4ca9-99b0-14c91448ee4e/webchat/config.js';
+        script2.defer = true; // Defer loading until HTML parsing is complete
+        document.body.appendChild(script2);
         """
     )
 
