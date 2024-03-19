@@ -1,10 +1,4 @@
 <div style="position: fixed; bottom: 0; left: 0; width: 100%; background-color: black; padding: 10px; display: flex; justify-content: space-between; align-items: center;">
-    <div id="chatbot-button">
-        <button onclick="toggleChatbot()" style="background-color: transparent; border: none; cursor: pointer;">
-            <img src="chatbot_icon.png" alt="Chatbot" style="height: 32px; width: 32px;">
-        </button>
-        <iframe id="chatbot-frame" style="display: none; height: 300px; width: 300px; border: 1px solid white;"></iframe>
-    </div>
     <div id="project-copyright" style="display: flex; align-items: center;">
         <p style="margin: 0; color: rgba(255,255,255,0.6); font-size: 10px;">© 2024 Carbon Manager- A Unique Solution to Global Warming using ML, Team Hackminors.</p>
     </div>
@@ -13,14 +7,3 @@
         <a href="https://www.youtube.com/@TeamHackminors" target="_blank" rel="noopener noreferrer" style="width:32px; height:32px;"><img src="https://raw.githubusercontent.com/sagnikchakraborty17/carbonmanager.ai/main/style/logo.png" height=40px width=50px></a>
     </div>
 </div>
-
-<script>
-    function toggleChatbot() {
-        var frame = document.getElementById('chatbot-frame');
-        if (frame.style.display === 'none') {
-            frame.style.display = 'block';
-        } else {
-            frame.style.display = 'none';
-        }
-    }
-</script>
