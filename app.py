@@ -186,8 +186,7 @@ st.markdown(
         "themeColor": "#2563eb"
     });
         </script>
-        """,
-        unsafe_allow_html=True
+        """
     )
 
 with open("./style/footer.html", "r", encoding="utf-8") as footer:
