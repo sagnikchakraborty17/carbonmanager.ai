@@ -3,14 +3,12 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Chat with Bot</title>
+    <title>CarbonGPT</title>
 </head>
 <body>
 
-<button onclick="openChat()">Chat with Bot</button>
-
 <script>
-    function openChat() {
+
         // Create a div element to contain the chatbot
         var chatDiv = document.createElement("div");
         chatDiv.id = "botpressChat"; // Assign an ID to the div for reference
@@ -28,7 +26,6 @@
         script2.src = "https://mediafiles.botpress.cloud/c80ccde7-2db0-4ca9-99b0-14c91448ee4e/webchat/config.js";
         script2.defer = true; // Defer loading until HTML parsing is complete
         document.body.appendChild(script2);
-    }
 </script>
 
 </body>
