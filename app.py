@@ -182,7 +182,8 @@ st.markdown(
         script2.src = 'https://mediafiles.botpress.cloud/c80ccde7-2db0-4ca9-99b0-14c91448ee4e/webchat/config.js';
         script2.defer = true; // Defer loading until HTML parsing is complete
         document.body.appendChild(script2);
-        """
+        """,
+    unsafe_allow_html=True
     )
 
 with open("./style/footer.html", "r", encoding="utf-8") as footer:
