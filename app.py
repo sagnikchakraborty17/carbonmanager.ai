@@ -163,6 +163,33 @@ tab_result.markdown(f"""You owe nature <b>{tree_count}</b> tree{'s' if tree_coun
 if resultmid.button("  ", type="secondary"):
     click_element('tab-1')
 
+st.markdown(
+        """
+        <script src="https://cdn.botpress.cloud/webchat/v1/inject.js"></script>
+        <script>
+        window.botpressWebChat.init({
+        "composerPlaceholder": "Chat with CarbonGPT",
+        "botConversationDescription": "This is the bot for the Carbon Manager project.",
+        "botId": "c80ccde7-2db0-4ca9-99b0-14c91448ee4e",
+        "hostUrl": "https://cdn.botpress.cloud/webchat/v1",
+        "messagingUrl": "https://messaging.botpress.cloud",
+        "clientId": "c80ccde7-2db0-4ca9-99b0-14c91448ee4e",
+        "webhookId": "756ed999-5e57-4054-9f7a-9c23a7c9b8d1",
+        "lazySocket": true,
+        "themeName": "prism",
+        "botName": "CarbonGPT",
+        "avatarUrl": "https://cdn.leonardo.ai/users/434a484d-c18d-47a0-9d78-7c1cfca70039/generations/0e5b096c-fa85-4d78-b42a-6fb37e24935e/Default_woman_dancing_in_the_black_hole_splashing_ripples_on_b_0.jpg?w=512",
+        "frontendVersion": "v1",
+        "useSessionStorage": true,
+        "enableConversationDeletion": true,
+        "theme": "prism",
+        "themeColor": "#2563eb"
+    });
+        </script>
+        """,
+        unsafe_allow_html=True
+    )
+
 with open("./style/footer.html", "r", encoding="utf-8") as footer:
     footer_html = f"""{footer.read()}"""
     st.markdown(footer_html, unsafe_allow_html=True)
