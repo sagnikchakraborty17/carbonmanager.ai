@@ -165,7 +165,7 @@ if resultmid.button("  ", type="secondary"):
 
 # Function to load Botpress chatbot HTML
 def load_chatbot():
-    with open("chatbot.html", "r", encoding="utf-8") as chatbot_file:
+    with open("./style/chatbot.html", "r", encoding="utf-8") as chatbot_file:
         chatbot_html = chatbot_file.read()
         st.markdown(chatbot_html, unsafe_allow_html=True)
 
