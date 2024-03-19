@@ -163,11 +163,11 @@ tab_result.markdown(f"""You owe nature <b>{tree_count}</b> tree{'s' if tree_coun
 if resultmid.button("  ", type="secondary"):
     click_element('tab-1')
 
-with open("./style/footer.html", "r", encoding="utf-8") as footer:
-    footer_html = f"""{footer.read()}"""
+with open("./style/chatbot.html", "r", encoding="utf-8") as chatbot:
+    footer_html = f"""{chatbot.read()}"""
     st.markdown(footer_html, unsafe_allow_html=True)
 
-with open("./style/chatbot.html", "r", encoding="utf-8") as footer:
+with open("./style/footer.html", "r", encoding="utf-8") as footer:
     footer_html = f"""{footer.read()}"""
     st.markdown(footer_html, unsafe_allow_html=True)
 
