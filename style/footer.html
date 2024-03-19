@@ -1,6 +1,6 @@
 <div style="position: fixed; bottom: 0; left: 0; width: 100%; background-color: black; padding: 10px; display: flex; justify-content: space-between; align-items: center;">
     <div id="chatbot-button">
-        <button onclick="openChatbot()" style="background-color: transparent; border: none; cursor: pointer;">
+        <button onclick="toggleChatbot()" style="background-color: transparent; border: none; cursor: pointer;">
             <img src="chatbot_icon.png" alt="Chatbot" style="height: 32px; width: 32px;">
         </button>
         <iframe id="chatbot-frame" style="display: none; height: 300px; width: 300px; border: 1px solid white;"></iframe>
@@ -15,7 +15,7 @@
 </div>
 
 <script>
-    function openChatbot() {
+    function toggleChatbot() {
         var frame = document.getElementById('chatbot-frame');
         if (frame.style.display === 'none') {
             frame.style.display = 'block';
