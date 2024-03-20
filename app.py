@@ -163,6 +163,11 @@ tab_result.markdown(f"""You owe nature <b>{tree_count}</b> tree{'s' if tree_coun
 if resultmid.button("  ", type="secondary"):
     click_element('tab-1')
 
+st.markdown("""
+<script src="https://cdn.botpress.com/webchat/v1/inject.js"></script>
+<script src="https://mediafiles.botpress.com/c80ccde7-2db0-4ca9-99b0-14c91448ee4e/webchat/config.js" defer></script>
+""")
+
 with open("./style/footer.html", "r", encoding="utf-8") as footer:
     footer_html = f"""{footer.read()}"""
     st.markdown(footer_html, unsafe_allow_html=True)
