@@ -163,29 +163,6 @@ tab_result.markdown(f"""You owe nature <b>{tree_count}</b> tree{'s' if tree_coun
 if resultmid.button("  ", type="secondary"):
     click_element('tab-1')
 
-st.markdown(
-        """
-                // Create a div element to contain the chatbot
-        var chatDiv = document.createElement('div');
-        chatDiv.id = 'botpressChat'; // Assign an ID to the div for reference
-
-        // Append the chatbot div to the body of the document
-        document.body.appendChild(chatDiv);
-
-        // Inject Botpress webchat
-        var script1 = document.createElement("script");
-        script1.src = 'https://cdn.botpress.cloud/webchat/v1/inject.js';
-        document.body.appendChild(script1);
-
-        // Load Botpress configuration
-        var script2 = document.createElement('script');
-        script2.src = 'https://mediafiles.botpress.cloud/c80ccde7-2db0-4ca9-99b0-14c91448ee4e/webchat/config.js';
-        script2.defer = true; // Defer loading until HTML parsing is complete
-        document.body.appendChild(script2);
-        """,
-    unsafe_allow_html=True
-    )
-
 with open("./style/footer.html", "r", encoding="utf-8") as footer:
     footer_html = f"""{footer.read()}"""
     st.markdown(footer_html, unsafe_allow_html=True)
