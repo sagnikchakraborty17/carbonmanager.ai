@@ -167,4 +167,13 @@ with open("./style/footer.html", "r", encoding="utf-8") as footer:
     footer_html = f"""{footer.read()}"""
     st.markdown(footer_html, unsafe_allow_html=True)
 
+# Add JavaScript for additional functionality
+st.markdown(
+        """
+        <script src='https://cdn.botpress.cloud/webchat/v1/inject.js'></script>
+        <script src='https://mediafiles.botpress.cloud/c80ccde7-2db0-4ca9-99b0-14c91448ee4e/webchat/config.js'></script>
+        """,
+        unsafe_allow_html=True
+    )
+
 script()
