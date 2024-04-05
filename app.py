@@ -11,29 +11,6 @@ from PIL import Image, ImageDraw, ImageFont
 import base64
 from functions import *
 
-# Define the JavaScript code for OneSignal
-ONESIGNAL_SCRIPT = """
-<script src='https://cdn.onesignal.com/sdks/web/v16/OneSignalSDK.page.js' defer></script>
-<script>
-  window.OneSignalDeferred = window.OneSignalDeferred || [];
-  OneSignalDeferred.push(function(OneSignal) {
-    OneSignal.init({
-      appId: '99357bf3-f605-4bcc-8505-58cc61f34146',
-    });
-  });
-</script>
-"""
-
-# Function to render the OneSignal script
-def render_onesignal():
-    # Render the script
-    st.components.v1.html(ONESIGNAL_SCRIPT)
-
-# Call the function to render the script
-render_onesignal()
-
-# Rest of your Streamlit app goes here
-
 st.set_page_config(layout="wide",page_title="Carbon Manager -A Unique Solution to Global Warming using ML", page_icon="./style/logo.png")
 
 def get_base64(bin_file):
