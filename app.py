@@ -1,5 +1,4 @@
 import streamlit as st
-import streamlit.components.v1 as components
 import pandas as pd
 import numpy as np
 from streamlit.components.v1 import html
@@ -13,12 +12,6 @@ import base64
 from functions import *
 
 st.set_page_config(layout="wide",page_title="Carbon Manager -A Unique Solution to Global Warming using ML", page_icon="./style/logo.png")
-
-components.html("""
-<script>
-var chatDiv = document.createElement(`div`); chatDiv.id = `botpressChat`; document.body.appendChild(chatDiv); var script1 = document.createElement(`script`); script1.src = `https://cdn.botpress.cloud/webchat/v1/inject.js`; document.body.appendChild(script1); var script2 = document.createElement(`script`); script2.src = `https://mediafiles.botpress.cloud/c80ccde7-2db0-4ca9-99b0-14c91448ee4e/webchat/config.js`; script2.defer = true; document.body.appendChild(script2);
-</script>
-""")
 
 def get_base64(bin_file):
     with open(bin_file, 'rb') as f:
