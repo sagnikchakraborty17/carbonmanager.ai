@@ -1,16 +1,3 @@
-var script = document.createElement('script');
-script.src = 'https://cdn.onesignal.com/sdks/web/v16/OneSignalSDK.page.js';
-script.defer = true;
-document.head.appendChild(script);
-
-window.OneSignalDeferred = window.OneSignalDeferred || [];
-OneSignalDeferred.push(function(OneSignal) {
-  OneSignal.init({
-    appId: "99357bf3-f605-4bcc-8505-58cc61f34146",
-  });
-});
-
-
 window.parent.document.getElementById('button-17').addEventListener('click', showPopup);
 window.parent.document.getElementById('button-17').addEventListener('click', changeText);
 window.parent.document.getElementById('popup').addEventListener('click', hidePopup);
