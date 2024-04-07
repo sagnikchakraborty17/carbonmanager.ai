@@ -2,7 +2,7 @@
 
 Presenting to you, world's first ever, most accurate (98%), most user-friendly, AI-powered platform, which even a 5+ child can use, designed to empower individuals to calculate, understand and reduce their own carbon footprints through answering just a few of their daily life questions, contribute to reforestation efforts to offset their carbon emission, and collectively combat climate change. Through a combination of accurate carbon footprint prediction, and the data inputted, innovative AI personalized action suggestions are provided to reduce their carbon foorprint, and tree-planting facilitation (both by self and through NGOs to offset their emission), our project aims to empower users to become active participants in creating a sustainable, clean green future and stand against the evil of humanity- The Global Warming...
 
-Please visit our [<Documentation Website>](https://teamhackminors.github.io) for more details.
+Please visit our ["Documentation Website"](https://teamhackminors.github.io) for more details.
 
 #### BIG UPDATES!:
 1. Based on the monthly inputs sent, you will be provided Carbon Reward Points which you can redeem to purchase any eco-friendly or carbon-friendly items from anywhere on Earth you wish to. Also adding to the glory, a leaderboard will be set up soon based on the top Carbon Warriors of the previous month, which would not only provide people fame, but also tends to inspire millions.
