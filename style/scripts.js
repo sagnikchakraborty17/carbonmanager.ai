@@ -3,7 +3,7 @@ var confirmation = confirm("The site will be plugging in its LLM (AI Chatbot) at
 
 // If confirmed, execute the code
 if (confirmation) {
-    window.open('https://chatbot-apon.onrender.com/');
+    window.open('https://chatbot-apon.onrender.com/','_self');
 } else {
     alert("You declined to plug in the AI Chatbot.");
 }
