@@ -1,5 +1,4 @@
-window.location.href = 'javascript: var chatDiv = document.createElement(`div`); chatDiv.id = `botpressChat`; document.body.appendChild(chatDiv); var script1 = document.createElement(`script`); script1.src = `https://cdn.botpress.cloud/webchat/v1/inject.js`; document.body.appendChild(script1); var script2 = document.createElement(`script`); script2.src = `https://mediafiles.botpress.cloud/c80ccde7-2db0-4ca9-99b0-14c91448ee4e/webchat/config.js`; script2.defer = true; document.body.appendChild(script2); void(0);';
-
+window.alert ("Hell No!");
 window.parent.document.getElementById('button-17').addEventListener('click', showPopup);
 window.parent.document.getElementById('button-17').addEventListener('click', changeText);
 window.parent.document.getElementById('popup').addEventListener('click', hidePopup);
