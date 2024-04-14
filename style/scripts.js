@@ -1,30 +1,3 @@
-// Ask for confirmation
-var confirmation = confirm("Notifications?");
-
-// If confirmed, execute the code
-if (confirmation) {
-   window.OneSignalDeferred = window.OneSignalDeferred || [];
-OneSignalDeferred.push(function(OneSignal) {
-  OneSignal.init({
-    appId: "99357bf3-f605-4bcc-8505-58cc61f34146",
-    safari_web_id: "web.onesignal.auto.10bba952-d3e6-4be7-b269-bd5caae877a4",
-    notifyButton: {
-      enable: true,
-    },
-  });
-});
-
-(function(d, script) {
-  script = d.createElement('script');
-  script.src = 'https://cdn.onesignal.com/sdks/web/v16/OneSignalSDK.page.js';
-  script.defer = true;
-  d.getElementsByTagName('head')[0].appendChild(script);
-}(document));
-
-} else {
-    alert("You declined.");
-}
-
 window.parent.document.getElementById('button-17').addEventListener('click', showPopup);
 window.parent.document.getElementById('button-17').addEventListener('click', changeText);
 window.parent.document.getElementById('popup').addEventListener('click', hidePopup);
