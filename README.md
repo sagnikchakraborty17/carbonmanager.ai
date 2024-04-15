@@ -30,7 +30,7 @@ Apart from this, it also has the following features:-
 
 *Project Documentation*- https://teamhackminors.github.io
 
-*AI Carbon Footprint Manager*- https://carbonmanager.streamlit.app
+*AI Carbon Footprint Manager*- https://teamhackminors.github.io/carbonfootprintmanager
 
 *Chat2Eco, the AI Chatbot (UI)*- https://chatbot-apon.onrender.com
 
