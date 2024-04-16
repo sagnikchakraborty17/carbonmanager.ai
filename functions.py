@@ -106,26 +106,24 @@ def hesapla(model,ss, sample_df):
 
 
 
-
- hesap = {}
-    for param in parameters:
-        copy_df = sample_df.copy()
-        copy_df[list(set(copy_df.columns) - {param})] = 0
-        hesap[param] = np.exp(model.predict(ss.transform(copy_df)))[0]
+     
+    diet = np.exp(model.predict(ss.transform(copy_df)))
+    hesap = {"Parameters" :parameters[0],}
 
     return hesap
 
 
-def chart(model, scaler, sample_df, prediction):
-    p = hesapla(model, scaler, sample_df)
+def chart(model, scaler,sample_df, prediction):
+    p = hesapla(model, scaler,sample_df)
     bbox_props = dict(boxstyle="round", facecolor="white", edgecolor="white", alpha=0.7)
 
     plt.figure(figsize=(10, 10))
     patches, texts = plt.pie(x=p.values(),
                              labels=p.keys(),
-                             explode=[0.03] * len(p),
+                             explode=[0.03] * 4,
                              labeldistance=0.75,
-                             colors=plt.cm.Paired(np.arange(len(p))), shadow=True)
+                             colors=["#29ad9f", "#1dc8b8", "#99d9d9", "#b4e3dd" ], shadow=True,
+                             textprops={'fontsize': 20, 'weight': 'bold', "color": "#000000ad"})
     for text in texts:
         text.set_horizontalalignment('center')
 
