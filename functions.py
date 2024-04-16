@@ -61,9 +61,9 @@ def input_preprocessing(data):
     return data
 def hesapla(model,ss, sample_df):
     copy_df = sample_df.copy()
-    travels = copy_df[["Frequency of Traveling by Air",
-                         "Vehicle Monthly Distance Km",
-                         'Transport_private',
+    parameters = [        "Frequency of Traveling by Air",
+                          "Vehicle Monthly Distance Km",
+                          'Transport_private',
                           'Transport_public',
                           'Transport_walk/bicycle',
                           'Vehicle Type_None',
@@ -71,64 +71,61 @@ def hesapla(model,ss, sample_df):
                           'Vehicle Type_electric',
                           'Vehicle Type_hybrid',
                           'Vehicle Type_lpg',
-                          'Vehicle Type_petrol']]
-    copy_df[list(set(copy_df.columns) - set(travels.columns))] = 0
-    travel = np.exp(model.predict(ss.transform(copy_df)))
-
-    copy_df = sample_df.copy()
-    energys = copy_df[[ 'Heating Energy Source_coal','How Often Shower', 'How Long TV PC Daily Hour',
-                         'Heating Energy Source_electricity','How Long Internet Daily Hour',
-                         'Heating Energy Source_natural gas',
-                         'Cooking_with_stove',
+                          'Vehicle Type_petrol'
+                          'Heating Energy Source_coal',
+                          'How Often Shower', 
+                          'How Long TV PC Daily Hour',
+                          'Heating Energy Source_electricity','How Long Internet Daily Hour',
+                          'Heating Energy Source_natural gas',
+                          'Cooking_with_stove',
                           'Cooking_with_oven',
                           'Cooking_with_microwave',
                           'Cooking_with_grill',
                           'Cooking_with_airfryer',
-                         'Heating Energy Source_wood','Energy efficiency']]
-    copy_df[list(set(copy_df.columns) - set(energys.columns))] = 0
-    energy = np.exp(model.predict(ss.transform(copy_df)))
+                          'Heating Energy Source_wood','Energy efficiency',
+                          'Do You Recyle_Paper',
+                          'How Many New Clothes Monthly',
+                          'Waste Bag Size',
+                          'Waste Bag Weekly Count',
+                          'Do You Recyle_Plastic',
+                          'Do You Recyle_Glass',
+                          'Do You Recyle_Metal',
+                          'Social Activity',  
+                          'Diet_omnivore',
+                          'Diet_pescatarian',
+                          'Diet_vegan',
+                          'Diet_vegetarian',
+                          'Monthly Grocery Bill','Transport_private',
+                          'Transport_public',
+                          'Transport_walk/bicycle',
+                          'Heating Energy Source_coal',
+                          'Heating Energy Source_electricity',
+                          'Heating Energy Source_natural gas',
+                          'Heating Energy Source_wood',    ]
+   
 
-    copy_df = sample_df.copy()
-    wastes = copy_df[[  'Do You Recyle_Paper','How Many New Clothes Monthly',
-                         'Waste Bag Size',
-                         'Waste Bag Weekly Count',
-                         'Do You Recyle_Plastic',
-                         'Do You Recyle_Glass',
-                         'Do You Recyle_Metal',
-                         'Social Activity',]]
-    copy_df[list(set(copy_df.columns) - set(wastes.columns))] = 0
-    waste = np.exp(model.predict(ss.transform(copy_df)))
 
-    copy_df = sample_df.copy()
-    diets = copy_df[[ 'Diet_omnivore',
-                     'Diet_pescatarian',
-                     'Diet_vegan',
-                     'Diet_vegetarian', 'Monthly Grocery Bill','Transport_private',
-                     'Transport_public',
-                     'Transport_walk/bicycle',
-                      'Heating Energy Source_coal',
-                      'Heating Energy Source_electricity',
-                      'Heating Energy Source_natural gas',
-                      'Heating Energy Source_wood',
-                      ]]
-    copy_df[list(set(copy_df.columns) - set(diets.columns))] = 0
-    diet = np.exp(model.predict(ss.transform(copy_df)))
-    hesap = {"Travel": travel[0], "Energy": energy[0], "Waste": waste[0], "Diet": diet[0]}
+
+
+ hesap = {}
+    for param in parameters:
+        copy_df = sample_df.copy()
+        copy_df[list(set(copy_df.columns) - {param})] = 0
+        hesap[param] = np.exp(model.predict(ss.transform(copy_df)))[0]
 
     return hesap
 
 
-def chart(model, scaler,sample_df, prediction):
-    p = hesapla(model, scaler,sample_df)
+def chart(model, scaler, sample_df, prediction):
+    p = hesapla(model, scaler, sample_df)
     bbox_props = dict(boxstyle="round", facecolor="white", edgecolor="white", alpha=0.7)
 
     plt.figure(figsize=(10, 10))
     patches, texts = plt.pie(x=p.values(),
                              labels=p.keys(),
-                             explode=[0.03] * 4,
+                             explode=[0.03] * len(p),
                              labeldistance=0.75,
-                             colors=["#29ad9f", "#1dc8b8", "#99d9d9", "#b4e3dd" ], shadow=True,
-                             textprops={'fontsize': 20, 'weight': 'bold', "color": "#000000ad"})
+                             colors=plt.cm.Paired(np.arange(len(p))), shadow=True)
     for text in texts:
         text.set_horizontalalignment('center')
 
