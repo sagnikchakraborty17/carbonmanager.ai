@@ -8,9 +8,10 @@ body {{
         height: 100vh;
         }}
 img, image{{
-	margin-left: 20vw;
-	height: 20vw;
-	width: 20vw;
+	margin-bottom: -15vw;
+	margin-left: 30vw;
+	height: 15vw;
+	width: 15w;
 }}
     p {{
     color: whitesmoke;
