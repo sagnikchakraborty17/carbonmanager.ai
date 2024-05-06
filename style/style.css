@@ -160,4 +160,6 @@ body {{
 		
 img {{
 	border-radius: 10px;
+	height: 15vw;
+	width:15vw;
 }}
