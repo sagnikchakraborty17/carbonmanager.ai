@@ -1,4 +1,3 @@
-
 import streamlit as st
 import pandas as pd
 import numpy as np
@@ -19,7 +18,7 @@ def get_base64(bin_file):
         data = f.read()
     return base64.b64encode(data).decode()
 
-background = get_base64("./media/background-main.gif")
+background = get_base64("./media/background_main.gif")
 icon2 = get_base64("./media/icon2.png")
 icon3 = get_base64("./media/icon3.png")
 
@@ -36,8 +35,8 @@ def script():
 left, middle, right = st.columns([2,3.5,2])
 main, comps , result = middle.tabs([" ", " ", " "])
 
-with open("./style/main.html", "r", encoding="utf-8") as main_page:
-    main.html(f"""{main_page.read()}""")
+with open("./style/main.md", "r", encoding="utf-8") as main_page:
+    main.markdown(f"""{main_page.read()}""")
 
 _,but,_ = main.columns([1,2,1])
 if but.button("Calculate Your Carbon Footprint!", type="primary"):
