@@ -8,16 +8,13 @@ body {{
         height: 100vh;
         }}
 img, image{{
-	margin-bottom: -15vw;
-	margin-left: 30vw;
 	height: 15vw;
-	width: 15w;
+	width: 80vw;
 }}
     p {{
     color: whitesmoke;
     font-family: "Google Sans",Roboto,Arial,sans-serif;
     font-size: 20px;
-	    width: 25vw
     
     }}
     div[data-testid="StyledLinkIconContainer"]> a, div[data-testid="StyledLinkIconContainer"]> a > svg {{background-color: rgba(255, 255, 255,0); stroke: rgba(0, 0, 0, 0);}}
