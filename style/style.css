@@ -8,9 +8,7 @@ body {{
         height: 100vh;
         }}
 img, image{{
-	text-align:center;
-	justify-content:center;
-	align-items: center;
+	margin-left: 10%;
 	height: 50%;
 	width: 50%;
 }}
