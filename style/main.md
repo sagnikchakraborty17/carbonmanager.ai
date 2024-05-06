@@ -37,7 +37,8 @@ Roles: Back-End (AI Bot)
 # 🌳Why It Matters?
 
 ####  🍃Climate Impact
-Reducing your carbon footprint directly contributes to global efforts against climate change, ![image](https://sdgs.un.org/sites/default/files/goals/E_SDG_Icons-13.jpg) mitigating extreme weather and rising temperatures which in turns may lead to what I guess you already know...
+![image](https://sdgs.un.org/sites/default/files/goals/E_SDG_Icons-13.jpg) 
+Reducing your carbon footprint directly contributes to global efforts against climate change, mitigating extreme weather and rising temperatures which in turns may lead to what I guess you already know...
 
 #### 🍃Resource Conservation
 ![image](https://sdgs.un.org/sites/default/files/goals/E_SDG_Icons-07.jpg)
