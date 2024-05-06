@@ -32,7 +32,7 @@ def script():
         html(open_script, width=0, height=0)
 
 
-left, middle, right = st.columns([1,3.5,1])
+left, middle, right = st.columns([1.7,3.5,1.7])
 main, comps , result = middle.tabs([" ", " ", " "])
 
 with open("./style/main.md", "r", encoding="utf-8") as main_page:
