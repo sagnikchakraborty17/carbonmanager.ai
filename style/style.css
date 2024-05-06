@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Sedan+SC&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Sedan+SC&display=swap');
 
 body {{
         background-image: url("data:image/png;base64,{background}");        
@@ -8,12 +8,12 @@ body {{
         margin: 0;
         padding: 0;
         height: 100vh;
-	font-family: "Sedan SC", serif;
+	font-family: "Playfair Display", serif;
         }}
 
     p {{
     color: orange;
-    font-family: "Google Sans",Roboto,Arial,sans-serif;
+    font-family: "Playfair Display", serif;
     font-size: 20px;
     font-family: "Sedan SC", serif;
     
@@ -112,10 +112,10 @@ body {{
     button[data-testid = "baseButton-primary"]{{width: 100%;}}
     button[data-testid = "baseButton-secondary"]{{width: 100%;}}
     div[data-testid = "stApp"]{{background: None; color: black;}}
-    div[id^=tabs-bui][id$=-tabpanel-0] > div> div > div > div > div[class = "stMarkdown"] {{font-family: "Sedan SC", serif; color:orange; padding: 20px; border-radius: 2rem; background: linear-gradient(147deg, #166d3b 0%, #000000 74%); }}
-    div[id^=tabs-bui][id$=-tabpanel-1] > div > div > div > div > div[class = "st-ae"] {{padding: 20px; border-radius: 2rem; background: rgba(255, 255, 255, 0.7);}}
-    div[id^=tabs-bui][id$=-tabpanel-2] > div > div > div > div > div[class = "st-ae"] {{padding: 20px; border-radius: 2rem; background: rgba(255, 255, 255, 0.7);}}
-    div[id^=tabs-bui][id$=-tabpanel-2] > div > div > div > div > div > div[id^=tabs-bui][id$=-tabpanel-0] > div> div > div > div > div[class = "stMarkdown"]{{background: rgba(255, 255, 255, 0.7);}}
+    div[id^=tabs-bui][id$=-tabpanel-0] > div> div > div > div > div[class = "stMarkdown"] {{font-family: "Playfair Display", serif; color:orange; padding: 20px; border-radius: 2rem; background: linear-gradient(147deg, #166d3b 0%, #000000 74%); }}
+    div[id^=tabs-bui][id$=-tabpanel-1] > div > div > div > div > div[class = "st-ae"] {{font-family: "Playfair Display", serif;padding: 20px; border-radius: 2rem; background: rgba(255, 255, 255, 0.7);}}
+    div[id^=tabs-bui][id$=-tabpanel-2] > div > div > div > div > div[class = "st-ae"] {{font-family: "Playfair Display", serif;padding: 20px; border-radius: 2rem; background: rgba(255, 255, 255, 0.7);}}
+    div[id^=tabs-bui][id$=-tabpanel-2] > div > div > div > div > div > div[id^=tabs-bui][id$=-tabpanel-0] > div> div > div > div > div[class = "stMarkdown"]{{font-family: "Playfair Display", serif;background: rgba(255, 255, 255, 0.7);}}
     div[data-testid  = "column"] > div > div> div > div > div > div >p {{text-align: center;}}
     div[data-testid  = "stButton"] {{text-align: center;}}
     div[data-testid  = "column"] > div > div> div > div > div > button > div > p {{color: green;}}
