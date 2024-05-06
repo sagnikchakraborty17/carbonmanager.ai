@@ -8,12 +8,6 @@ body {{
         height: 100vh;
         }}
 
-img {{
-	margin-left: 20vw;
-	max-width:700px;
-	border-radius: 10px;
-}}
-
     p {{
     color: whitesmoke;
     font-family: "Google Sans",Roboto,Arial,sans-serif;
@@ -164,3 +158,8 @@ img {{
 			display: block;
 		}}
 		
+img {{
+	margin-left: 20vw;
+	max-width:700px;
+	border-radius: 10px;
+}}
