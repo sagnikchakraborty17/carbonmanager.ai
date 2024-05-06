@@ -9,7 +9,7 @@ body {{
         }}
 
     p {{
-    color: whitesmoke;
+    color: yellow;
     font-family: "Google Sans",Roboto,Arial,sans-serif;
     font-size: 20px;
     
@@ -114,7 +114,7 @@ body {{
     div[id^=tabs-bui][id$=-tabpanel-2] > div > div > div > div > div > div[id^=tabs-bui][id$=-tabpanel-0] > div> div > div > div > div[class = "stMarkdown"]{{background: linear-gradient(147deg, #166d3b 0%, #000000 74%);}}
     div[data-testid  = "column"] > div > div> div > div > div > div >p {{text-align: center;}}
     div[data-testid  = "stButton"] {{text-align: center;}}
-    div[data-testid  = "column"] > div > div> div > div > div > button > div > p {{color: black;}}
+    div[data-testid  = "column"] > div > div> div > div > div > button > div > p {{color: green;}}
     div[data-testid  = "column"] > div > div> div > div > div > button[kind = "secondary"] > div > p {{font-size: 25px; margin-bottom: 5px}}
     svg[xmlns = "http://www.w3.org/2000/svg"]{{stroke: rgba(0, 0, 0, 0.6);}}
     div[data-testid = "stButton"] > button > div > p {{color: white; font-size: 15px;}}
