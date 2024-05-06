@@ -107,7 +107,7 @@ body {{
     button[data-testid = "baseButton-primary"]{{width: 100%;}}
     button[data-testid = "baseButton-secondary"]{{width: 100%;}}
     div[data-testid = "stApp"]{{background: None; color: black;}}
-    div[id^=tabs-bui][id$=-tabpanel-0] > div> div > div > div > div[class = "stMarkdown"] {{padding: 20px; border-radius: 2rem; background: rgba(255,255,255,0.7);}}
+    div[id^=tabs-bui][id$=-tabpanel-0] > div> div > div > div > div[class = "stMarkdown"] {{padding: 20px; border-radius: 2rem; background: linear-gradient(147deg, #166d3b 0%, #000000 74%);}}
     div[id^=tabs-bui][id$=-tabpanel-1] > div > div > div > div > div[class = "st-ae"] {{padding: 20px; border-radius: 2rem; background: rgba(255,255,255,0.7);}}
     div[id^=tabs-bui][id$=-tabpanel-2] > div > div > div > div > div[class = "st-ae"] {{padding: 20px; border-radius: 2rem; background: rgba(255,255,255,0.7);}}
     div[id^=tabs-bui][id$=-tabpanel-2] > div > div > div > div > div > div[id^=tabs-bui][id$=-tabpanel-0] > div> div > div > div > div[class = "stMarkdown"]{{background: rgba(255,255,255,0);}}
