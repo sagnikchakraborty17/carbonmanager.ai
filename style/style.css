@@ -9,8 +9,10 @@ body {{
         }}
 img, image{{
 	text-align:center;
-	height: 200/19.2 vw;
-	width: 200/19.2 vw;
+	justify-content:center;
+	align-items: center;
+	height: 50%;
+	width: 50%;
 }}
     p {{
     color: whitesmoke;
