@@ -110,9 +110,9 @@ body {{
     button[data-testid = "baseButton-secondary"]{{width: 100%;}}
     div[data-testid = "stApp"]{{background: None; color: black;}}
     div[id^=tabs-bui][id$=-tabpanel-0] > div> div > div > div > div[class = "stMarkdown"] {{color:yellow; padding: 20px; border-radius: 2rem; background: linear-gradient(147deg, #166d3b 0%, #000000 74%);}}
-    div[id^=tabs-bui][id$=-tabpanel-1] > div > div > div > div > div[class = "st-ae"] {{padding: 20px; border-radius: 2rem; background: linear-gradient(147deg, #166d3b 0%, #000000 74%);}}
-    div[id^=tabs-bui][id$=-tabpanel-2] > div > div > div > div > div[class = "st-ae"] {{padding: 20px; border-radius: 2rem; background: linear-gradient(147deg, #166d3b 0%, #000000 74%);}}
-    div[id^=tabs-bui][id$=-tabpanel-2] > div > div > div > div > div > div[id^=tabs-bui][id$=-tabpanel-0] > div> div > div > div > div[class = "stMarkdown"]{{background: linear-gradient(147deg, #166d3b 0%, #000000 74%);}}
+    div[id^=tabs-bui][id$=-tabpanel-1] > div > div > div > div > div[class = "st-ae"] {{padding: 20px; border-radius: 2rem; background: rgba(255, 255, 255, 0.7);}}
+    div[id^=tabs-bui][id$=-tabpanel-2] > div > div > div > div > div[class = "st-ae"] {{padding: 20px; border-radius: 2rem; background: rgba(255, 255, 255, 0.7);}}
+    div[id^=tabs-bui][id$=-tabpanel-2] > div > div > div > div > div > div[id^=tabs-bui][id$=-tabpanel-0] > div> div > div > div > div[class = "stMarkdown"]{{background: rgba(255, 255, 255, 0.7);}}
     div[data-testid  = "column"] > div > div> div > div > div > div >p {{text-align: center;}}
     div[data-testid  = "stButton"] {{text-align: center;}}
     div[data-testid  = "column"] > div > div> div > div > div > button > div > p {{color: green;}}
