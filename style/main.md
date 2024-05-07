@@ -4,7 +4,7 @@ Presenting to you, world's first ever, most accurate (98%), most user-friendly, 
 
 Please visit our ["Documentation Website"](https://teamhackminors.github.io) for more details.
 
-#### BIG UPDATES!:
+### BIG UPDATES!:
 1. Based on the monthly inputs sent, you will be provided Carbon Reward Points which you can redeem to purchase any eco-friendly or carbon-friendly items from anywhere on Earth you wish to. Also adding to the glory, a leaderboard will be set up soon based on the top Carbon Warriors of the previous month, which would not only provide people fame, but also tends to inspire millions.
 2. The data used to feed our AI model has been synthetically generated, calculated based on weightings from various studies and sites that currently compute the dependent variable, carbon emissions, attempting to maintain values close to reality. Thus to ensure an even more accurate result, we introduce yet another amazing feature named "Correction Factor". We invite all the experts from reputed industries and authorities to try our app and compare the calculated footprint on our app with that of their sensors or mathematics and science, and present to us if there is any difference or issue between the findings, by clicking on the "Report Correction Factor" button. Submit a detailed report with adequate proof and information. We shall soon review it and if there is (really) any noticable difference between the true findings and our findings, we shall try to improve the accurate results of our project even more by using a Correction Factor and make this platform even more powerful.
 3. A plugin of our specially designed LLM (AI Chatbot) has been integrated at the bottom right corner of this page. Please note that you wake it up by an appropriate message before use. Apart from the plugin you can use it anytime on its pro-UI with special features like chat history, no-wake-up mode, light-dark theme, etc. at: https://chatbot-new-e5ma.onrender.com .
@@ -13,21 +13,21 @@ Please visit our ["Documentation Website"](https://teamhackminors.github.io) for
 [(?)A carbon footprint measures the total greenhouse gas emissions linked to an individual, organization, event, or product. It's a crucial metric for gauging our impact on the environment and climate change.]
 
 # 👨‍💻Meet Our Team: Hackminors
-#### 🙋‍♂️ 1. Sagnik Chakraborty
+### 🙋‍♂️ 1. Sagnik Chakraborty
 Social Profiles: https://thesagnikchakraborty.000webhostapp.com
 
 Contact: chakrasagnik2008@gmail.com, teamhackminors@gmail.com
 
 Roles: Ideation & Concept, Implementation & Front-End and Back-end (AI Carbon Footprint Calculation)
 
-#### 🙋‍♂️ 2. Hrishikesh Saha
+### 🙋‍♂️ 2. Hrishikesh Saha
 Social Profiles:
 
 Contact: hrishikeshsaha2020@gmail.com, teamhackminors@gmail.com
 
 Roles: Project documentation page and Video Demonstration, 
 
-#### 🙋‍♂️ 3. Purbayon Sarkar
+### 🙋‍♂️ 3. Purbayon Sarkar
 Social Profiles: Instagram: https://www.instagram.com/ausxayon/
 
 
@@ -37,27 +37,27 @@ Roles: ML Logic of Calculator, LLM Design, Mixture-of-Experts Architecture and F
 
 # 🌳Why It Matters?
 
-####  🍃Climate Impact
+###  🍃Climate Impact
 ![image](https://sdgs.un.org/sites/default/files/goals/E_SDG_Icons-13.jpg) 
 
 Reducing your carbon footprint directly contributes to global efforts against climate change, mitigating extreme weather and rising temperatures which in turns may lead to what I guess you already know...
 
-#### 🍃Resource Conservation
+### 🍃Resource Conservation
 ![image](https://sdgs.un.org/sites/default/files/goals/E_SDG_Icons-07.jpg)
 
 Cutting carbon often means using fewer natural resources, and promoting sustainability in water, energy, and raw materials how you already know...
 
-#### 🍃Health and Well-being
+### 🍃Health and Well-being
 ![image](https://sdgs.un.org/sites/default/files/goals/E_SDG_Icons-03.jpg)
 
 ![image](https://sdgs.un.org/sites/default/files/goals/E_SDG_Icons-15.jpg)
 
 Lowering emissions supports healthier lifestyle choices, improving air quality and physical well-being as you may have / may be experiencing...
 
-#### 🍃Sustainable Practices
+### 🍃Sustainable Practices
 ![image](https://sdgs.un.org/sites/default/files/goals/E_SDG_Icons-11.jpg)
 
 Measuring and managing your carbon footprint encourages eco-friendly choices, fostering a more sustainable society!
 
-#### 🍃Responsibility
+### 🍃Responsibility
 Acknowledging and addressing your carbon impact demonstrates social and environmental responsibility as a true human on Earth...
