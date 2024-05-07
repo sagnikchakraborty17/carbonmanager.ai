@@ -18,21 +18,22 @@ Social Profiles: https://thesagnikchakraborty.000webhostapp.com
 
 Contact: chakrasagnik2008@gmail.com, teamhackminors@gmail.com
 
-Roles: Ideation & Concept, Implementation & Front-End, Back-end (AI Carbon Footprint Calculation)
+Roles: Ideation & Concept, Implementation & Front-End and Back-end (AI Carbon Footprint Calculation)
 
 #### 🙋‍♂️ 2. Hrishikesh Saha
 Social Profiles:
 
 Contact: hrishikeshsaha2020@gmail.com, teamhackminors@gmail.com
 
-Roles: Documentation page, Video Demonstration, 
+Roles: Project documentation page and Video Demonstration, 
 
 #### 🙋‍♂️ 3. Purbayon Sarkar
-Social Profiles:
+Social Profiles: Instagram: https://www.instagram.com/ausxayon/
 
-Contact: purbayonsarkar08@gmail.com, teamhackminors@gmail.com
 
-Roles: Back-End (AI Bot)
+Contact: purbayon2008@gmail.com, teamhackminors@gmail.com
+
+Roles: ML Logic of Calculator, LLM Design, Mixture-of-Experts Architecture and FineTuning, ChatUI and ChatBot plugin and Visual Effects of Video Demonstration
 
 # 🌳Why It Matters?
 
