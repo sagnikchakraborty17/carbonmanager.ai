@@ -114,7 +114,7 @@ body {{
     button[data-testid = "baseButton-primary"]{{width: 100%;}}
     button[data-testid = "baseButton-secondary"]{{width: 100%;}}
     div[data-testid = "stApp"]{{background: None; color: black;}}
-    div[id^=tabs-bui][id$=-tabpanel-0] > div> div > div > div > div[class = "stMarkdown"] {{font-family: "Roboto Slab", serif; color:rgb(238, 187, 153); padding: 20px; border-radius: 2rem; background: linear-gradient(to right, rgb(60, 179, 130), rgb(51, 139, 147)); }}
+    div[id^=tabs-bui][id$=-tabpanel-0] > div> div > div > div > div[class = "stMarkdown"] {{font-family: "Roboto Slab", serif;font-size:30px; color:rgb(238, 187, 153); padding: 20px; border-radius: 2rem; background: linear-gradient(to right, rgb(60, 179, 130), rgb(51, 139, 147)); }}
     div[id^=tabs-bui][id$=-tabpanel-1] > div > div > div > div > div[class = "st-ae"] {{font-family: "Roboto Slab", serif;padding: 20px; border-radius: 2rem; background: linear-gradient(to right, rgb(60, 179, 130), rgb(51, 139, 147));}}
     div[id^=tabs-bui][id$=-tabpanel-2] > div > div > div > div > div[class = "st-ae"] {{font-family: "Roboto Slab", serif;padding: 20px; border-radius: 2rem; background: linear-gradient(to right, rgb(60, 179, 130), rgb(51, 139, 147));}}
     div[id^=tabs-bui][id$=-tabpanel-2] > div > div > div > div > div > div[id^=tabs-bui][id$=-tabpanel-0] > div> div > div > div > div[class = "stMarkdown"]{{font-family: "Playfair Display", serif;background: linear-gradient(to right,rgb(60, 179, 130), rgb(51, 139, 147));}}
