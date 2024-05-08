@@ -42,10 +42,10 @@ body {{
           display: inline-flex;
           fill: currentcolor;
           font-family: "Roboto Slab", serif;
-          font-size: 24px;
+          font-size: 20px;
           font-weight: 500;
 	  font-weight: bold;
-          height: 70px;
+          height: 65px;
 	  width: 67px;
           justify-content: center;
           letter-spacing: .25px;
