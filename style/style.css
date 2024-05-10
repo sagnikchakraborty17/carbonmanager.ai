@@ -45,7 +45,7 @@ body {{
           font-size: 15px;
           font-weight: 500;
 	  font-weight: bold;
-          height: 65px;
+          height: 68px;
 	  width: 65px;
           justify-content: center;
           letter-spacing: .25px;
@@ -94,7 +94,7 @@ body {{
     
     
     .TextNew {{
-         font-size: 30px;
+         font-size: 20px;
          line-height: 1.5;
 	 font-weight: bold;
     }}
@@ -120,23 +120,23 @@ body {{
     button[data-testid = "baseButton-primary"]{{width: 100%;}}
     button[data-testid = "baseButton-secondary"]{{width: 100%;}}
     div[data-testid = "stApp"]{{background: None; color: black;}}
-    div[id^=tabs-bui][id$=-tabpanel-0] > div> div > div > div > div[class = "stMarkdown"] {{font-family: "Roboto Slab", serif;font-weight: bold;font-size:20px; color:rgb(238, 187, 153);font-size:23px; padding: 20px; border-radius: 2rem; background:linear-gradient(90deg, rgba(119,150,0,1) 1%, rgba(14,120,0,1) 51%, rgba(0,149,232,1) 100%);}}
-    div[id^=tabs-bui][id$=-tabpanel-1] > div > div > div > div > div[class = "st-ae"] {{font-family: "Roboto Slab", serif;font-weight: bold;padding: 20px; border-radius: 2rem;font-size:23px; background:linear-gradient(90deg, rgba(119,150,0,1) 1%, rgba(14,120,0,1) 51%, rgba(0,149,232,1) 100%);}}
-    div[id^=tabs-bui][id$=-tabpanel-2] > div > div > div > div > div[class = "st-ae"] {{font-family: "Roboto Slab", serif;font-weight: bold;padding: 20px; border-radius: 2rem;font-size:23px; background:linear-gradient(90deg, rgba(119,150,0,1) 1%, rgba(14,120,0,1) 51%, rgba(0,149,232,1) 100%);}}
-    div[id^=tabs-bui][id$=-tabpanel-2] > div > div > div > div > div > div[id^=tabs-bui][id$=-tabpanel-0] > div> div > div > div > div[class = "stMarkdown"]{{font-family: "Robota Slab", serif;font-size:23px;font-weight: bold;background:linear-gradient(90deg, rgba(119,150,0,1) 1%, rgba(14,120,0,1) 51%, rgba(0,149,232,1) 100%);}}
+    div[id^=tabs-bui][id$=-tabpanel-0] > div> div > div > div > div[class = "stMarkdown"] {{font-family: "Roboto Slab", serif;font-weight: bold;font-size:20px; color:rgb(238, 187, 153); padding: 20px; border-radius: 2rem; background:linear-gradient(90deg, rgba(119,150,0,1) 1%, rgba(14,120,0,1) 51%, rgba(0,149,232,1) 100%);}}
+    div[id^=tabs-bui][id$=-tabpanel-1] > div > div > div > div > div[class = "st-ae"] {{font-family: "Roboto Slab", serif;font-weight: bold;padding: 20px; border-radius: 2rem; background:linear-gradient(90deg, rgba(119,150,0,1) 1%, rgba(14,120,0,1) 51%, rgba(0,149,232,1) 100%);}}
+    div[id^=tabs-bui][id$=-tabpanel-2] > div > div > div > div > div[class = "st-ae"] {{font-family: "Roboto Slab", serif;font-weight: bold;padding: 20px; border-radius: 2rem; background:linear-gradient(90deg, rgba(119,150,0,1) 1%, rgba(14,120,0,1) 51%, rgba(0,149,232,1) 100%);}}
+    div[id^=tabs-bui][id$=-tabpanel-2] > div > div > div > div > div > div[id^=tabs-bui][id$=-tabpanel-0] > div> div > div > div > div[class = "stMarkdown"]{{font-family: "Robota Slab", serif;font-weight: bold;background:linear-gradient(90deg, rgba(119,150,0,1) 1%, rgba(14,120,0,1) 51%, rgba(0,149,232,1) 100%);}}
     div[data-testid  = "column"] > div > div> div > div > div > div >p {{text-align: center;}}
     div[data-testid  = "stButton"] {{text-align: center;}}
     div[data-testid  = "column"] > div > div> div > div > div > button > div > p {{color: green;}}
-    div[data-testid  = "column"] > div > div> div > div > div > button[kind = "secondary"] > div > p {{font-size: 35px;font-weight: bold; margin-bottom: 5px;}}
+    div[data-testid  = "column"] > div > div> div > div > div > button[kind = "secondary"] > div > p {{font-size: 25px;font-weight: bold; margin-bottom: 5px;}}
     svg[xmlns = "http://www.w3.org/2000/svg"]{{stroke: rgba(0, 0, 0, 0.6);}}
-    div[data-testid = "stButton"] > button > div > p {{color: white; font-size: 25px;font-weight: bold;}}
+    div[data-testid = "stButton"] > button > div > p {{color: white; font-size: 15px;font-weight: bold;}}
     header[data-testid = "stHeader"]{{background: rgba(255,255,255,0);}}
     div[data-testid = "stDecoration"]{{background: rgba(255,255,255,0);}}
     div[data-baseweb = "tab-border"] {{display: none;}}
     
     div[id^=tabs-bui][id$=-tabpanel-0] > div > div > div > div > div[data-testid = "column"] > div > div> div > div > div > button[kind = "primary"] > div > p
      {{
-    font-size: 30px;
+    font-size: 20px;
     font-weight: bold;
     font-weight: bold;
     }}
@@ -151,7 +151,7 @@ body {{
      color: rgb(255, 255, 255);
     }}
 
-    div[data-testid = "stMarkdownContainer"] > p > a {{color: rgb(0, 0, 0); text-decoration: none; border: 0px; font-size: 28px;font-weight: bold; }}
+    div[data-testid = "stMarkdownContainer"] > p > a {{color: rgb(0, 0, 0); text-decoration: none; border: 0px; font-size: 18px;font-weight: bold; }}
     div[data-testid = "stMarkdownContainer"] > p > a:hover:active {{border: 1px solid; border-color: rgb(0, 255, 0);}}
     div[id^=tabs-bui][id$=-tabpanel-2] > div > div > div > div > div > div > div > div > div > div[data-testid = "stMarkdownContainer"] > p {{text-align: center;}}
     div[data-testid="stStyledFullScreenFrame"] > div,div[id^=tabs-bui][id$=-tabpanel-2] > div > div > div > div > div > div[id^=tabs-bui][id$=-tabpanel-0] > div > div > div > div > div > div {{display: grid;    place-items: center;  text-align: center;}}
