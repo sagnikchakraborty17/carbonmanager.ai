@@ -120,10 +120,10 @@ body {{
     button[data-testid = "baseButton-primary"]{{width: 100%;}}
     button[data-testid = "baseButton-secondary"]{{width: 100%;}}
     div[data-testid = "stApp"]{{background: None; color: black;}}
-    div[id^=tabs-bui][id$=-tabpanel-0] > div> div > div > div > div[class = "stMarkdown"] {{font-family: "Roboto Slab", serif;font-weight: bold;font-size:20px; color:rgb(238, 187, 153); padding: 20px; border-radius: 2rem; background:linear-gradient(90deg, rgba(119,150,0,1) 1%, rgba(14,120,0,1) 51%, rgba(0,149,232,1) 100%);}}
-    div[id^=tabs-bui][id$=-tabpanel-1] > div > div > div > div > div[class = "st-ae"] {{font-family: "Roboto Slab", serif;font-weight: bold;padding: 20px; border-radius: 2rem; background:linear-gradient(90deg, rgba(119,150,0,1) 1%, rgba(14,120,0,1) 51%, rgba(0,149,232,1) 100%);}}
-    div[id^=tabs-bui][id$=-tabpanel-2] > div > div > div > div > div[class = "st-ae"] {{font-family: "Roboto Slab", serif;font-weight: bold;padding: 20px; border-radius: 2rem; background:linear-gradient(90deg, rgba(119,150,0,1) 1%, rgba(14,120,0,1) 51%, rgba(0,149,232,1) 100%);}}
-    div[id^=tabs-bui][id$=-tabpanel-2] > div > div > div > div > div > div[id^=tabs-bui][id$=-tabpanel-0] > div> div > div > div > div[class = "stMarkdown"]{{font-family: "Robota Slab", serif;font-weight: bold;background:linear-gradient(90deg, rgba(119,150,0,1) 1%, rgba(14,120,0,1) 51%, rgba(0,149,232,1) 100%);}}
+    div[id^=tabs-bui][id$=-tabpanel-0] > div> div > div > div > div[class = "stMarkdown"] {{font-family: "Roboto Slab", serif;font-weight: bold;font-size:20px; color:rgb(238, 187, 153); padding: 20px; border-radius: 2rem; background:linear-gradient(145deg, rgba(150,112,0,1) 1%, rgba(14,120,0,1) 50%, rgba(0,232,185,1) 100%);}}
+    div[id^=tabs-bui][id$=-tabpanel-1] > div > div > div > div > div[class = "st-ae"] {{font-family: "Roboto Slab", serif;font-weight: bold;padding: 20px; border-radius: 2rem; background:linear-gradient(145deg, rgba(150,112,0,1) 1%, rgba(14,120,0,1) 50%, rgba(0,232,185,1) 100%);}}
+    div[id^=tabs-bui][id$=-tabpanel-2] > div > div > div > div > div[class = "st-ae"] {{font-family: "Roboto Slab", serif;font-weight: bold;padding: 20px; border-radius: 2rem; background:linear-gradient(145deg, rgba(150,112,0,1) 1%, rgba(14,120,0,1) 50%, rgba(0,232,185,1) 100%);}}
+    div[id^=tabs-bui][id$=-tabpanel-2] > div > div > div > div > div > div[id^=tabs-bui][id$=-tabpanel-0] > div> div > div > div > div[class = "stMarkdown"]{{font-family: "Robota Slab", serif;font-weight: bold;background:linear-gradient(145deg, rgba(150,112,0,1) 1%, rgba(14,120,0,1) 50%, rgba(0,232,185,1) 100%);}}
     div[data-testid  = "column"] > div > div> div > div > div > div >p {{text-align: center;}}
     div[data-testid  = "stButton"] {{text-align: center;}}
     div[data-testid  = "column"] > div > div> div > div > div > button > div > p {{color: green;}}
