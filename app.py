@@ -18,7 +18,7 @@ def get_base64(bin_file):
         data = f.read()
     return base64.b64encode(data).decode()
 
-background = get_base64("./media/background_main.jpeg")
+background = get_base64("./media/background_main.png")
 icon2 = get_base64("./media/icon2.png")
 icon3 = get_base64("./media/icon3.png")
 
